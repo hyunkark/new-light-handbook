@@ -3,6 +3,7 @@ import { normalize } from "styled-normalize";
 
 export const GlobalStyle = createGlobalStyle`
   ${normalize}
+  
   html {
     box-sizing: border-box;
     font-size: 18px;

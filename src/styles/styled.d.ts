@@ -1,11 +1,8 @@
 import "styled-components";
+import { COLORTYPE } from "@/constants/COLOR";
 
 declare module "styled-components" {
   export interface DefaultTheme {
-    colors: {
-      black: string;
-      white: string;
-      cyan: string;
-    };
+    colors: COLORTYPE;
   }
 }
